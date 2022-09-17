@@ -20,7 +20,9 @@ Di C++, setiap element di dalam sebuah array di asosiasikan dengan sebuah angka.
 Jadi kita mengakses element-element dari sebuah array menggunakan index. Intinya index itu adalah alamat dari sebuah element di dalam array.
 
 **Syntax untuk mengakses element-element di array :**
-```arrayName[index]```
+```
+arrayName[index]
+```
 ![This is an image](./array%202.svg)
 [^note]:
 Beberapa hal yang harus diingat :
@@ -34,7 +36,9 @@ Disini, ukuran dari setiap element meningkat jadi 4. Ini karena ukuran dari int 
 Di C++, kita bisa menginisialisasi sebuah array pada saat deklarasinya, sebagai contoh :
 
 method lain untuk inisialisasi array pada saat deklarasi :
-```int x[] = {2, 2, 4, 1};```
+```
+int x[] = {2, 2, 4, 1};
+```
 disini, kita tidak memberi tau ukuran dari array. Di beberapa kasus, compiler secara otomatis menghitung size nya.
 
 ##### array yang memiliki slot kosong
