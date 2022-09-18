@@ -8,7 +8,7 @@ int x[2][3];
 Disini, x adalah array dua dimensi, itu bisa menampung maksimal 6 element.
 
 Agar lebih mudah dipahami, kita bayangkan bahwa array mempunyai 2 tempat kosong, yang masih-masing tempatnya diisi dengan array yang memiliki kapasitas 3 element
-![](./img/multi%20dimensi%20array.svg)
+![](./multi%20dimensi%20array.svg)
 
 array x bisa menampung maksimal 6 element.
 Kita bisa mengetahui total element di dalam array dengan cara mengalikan dimensinya :
@@ -21,7 +21,7 @@ Kita bisa mengetahui total element di dalam array dengan cara mengalikan dimensi
 ```
 int twoDimensional[2][4] = {{2, 2, 1, 0}, {12, 3, 10, 7}};
 ```
-![](./img/2%20dimensi%20array.svg)
+![](./2%20dimensi%20array.svg)
 array ini mempunyai 2 tempat kosong, yang masing-masing tempatnya diisi dengan array yang memiliki kapasitas 4 element. 
 
 **2. Inisialisasi array tiga dimensi**
@@ -35,7 +35,7 @@ int threeDimensional[2][2][3] = {
     }
 };
 ```
-![](./img/3%20dimensi%20array.svg)
+![](./3%20dimensi%20array.svg)
 array ini mempunyai 2 tempat kosong, yang masing-masing tempatnya diisi dengan 2 array yang mempunyai tempat kosong, kemudian 2 array tersebut diisi dengan array yang memiliki kapasitas 3 element.
 
 ##### Mengakses array dua dimensi
