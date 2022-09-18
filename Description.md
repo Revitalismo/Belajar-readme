@@ -21,6 +21,7 @@ Jadi kita mengakses element-element dari sebuah array menggunakan index. Intinya
 **Syntax untuk mengakses element-element di array :**
 ```arrayName[index]```
 ![](./array%202.svg)
+
 [^note]:
 Beberapa hal yang harus diingat :
 - index array dimulai dari 0, jadi element pertama disimpan pada index ke 0
@@ -36,6 +37,7 @@ method lain untuk inisialisasi array pada saat deklarasi :
 int x[] = {2, 2, 4, 1};
 ```
 ![](./array.svg)
+
 disini, kita tidak memberi tau ukuran dari array. Di beberapa kasus, compiler secara otomatis menghitung size nya.
 
 ##### array yang memiliki slot kosong
@@ -45,6 +47,7 @@ Di C++, jika sebuah array memiliki ukuran 3, maka kita hanya bisa menyimpan samp
 int x[3] = {2};
 ```
 ![](./array%203.svg)
+
 Disini, array x mempunyai ukuran yaitu 3. Bagaimanapun juga, kita telah menginisialisasikan nya hanya 3 element.
 Dalam beberapa kasus. compiler akan memasukan nilai random ke slot yang tersisa. Biasanya, nilai random ini adalah 0(nol).
 
