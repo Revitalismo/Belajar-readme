@@ -6,10 +6,14 @@ Sebuah kelas mempunyai 27 murid, dan kita harus menyimpan nilai dari mereka semu
 disini, grade adalah sebuah array yang bisa menampung maksimal 27 element dari tipe data double. Di C++. ukuran dan tipe dari array tidak bisa diubah setelah deklarasinya
 
 ##### C++ array declaration
-```dataType arrayName[arraySize];```
+```
+dataType arrayName[arraySize];
+```
 
 sebagai contoh :
-```int myNumbers[3];```
+```
+int myNumbers[3];
+```
 - ```int``` adalah tipe data element yang hanya bisa dimasukan
 - ```myNumbers``` adalah nama array nya
 - ```[3]``` adalah ukuran dari array
@@ -19,7 +23,9 @@ Di C++, setiap element di dalam sebuah array di asosiasikan dengan sebuah angka.
 Jadi kita mengakses element-element dari sebuah array menggunakan index. Intinya index itu adalah alamat dari sebuah element di dalam array.
 
 **Syntax untuk mengakses element-element di array :**
-```arrayName[index]```
+```
+arrayName[index]
+```
 ![](./array%202.svg)
 
 [^note]:
